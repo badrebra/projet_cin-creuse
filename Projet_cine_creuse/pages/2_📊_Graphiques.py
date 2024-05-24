@@ -11,7 +11,7 @@ st.set_page_config(
 picture_sidebar()
 
 # Assuming your data is loaded into a pandas dataframe named 'df'
-df = pd.read_parquet(r'Projet_cine_creuse/cine_creuse_table.parquet')
+df = pd.read_parquet('Projet_cine_creuse/cine_creuse_table.parquet')
 
 # H1 centré
 st.markdown("<h1 style='text-align: center;'>Présentation & Analyse du dataset🎬</h1>", unsafe_allow_html=True)
