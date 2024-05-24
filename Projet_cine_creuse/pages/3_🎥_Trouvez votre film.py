@@ -16,7 +16,7 @@ picture_sidebar()
 
 # Fonction pour charger les données
 def charger_donnees():
-    df = pd.read_parquet(r'E:\Users\Desktop\python\Nouveau dossier (3)\pages\Projet_cine_creuse\cine_creuse_table.parquet')
+    df = pd.read_parquet('Projet_cine_creuse/cine_creuse_table.parquet')
     return df.sort_values(by='popularity', ascending=False)
 
 
